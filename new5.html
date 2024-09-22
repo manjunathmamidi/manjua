@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="new5.css">
+    </head>
+    <body>
+        <div id="a">
+            <div id="b">
+            <input type="text"id="c">
+            <br>
+            <div id="h">
+            <input type="button" class="h" onclick="Clear()" value="C">
+            <input type="button" class="h" onclick="back()"value="B">
+            <input type="button" class="h" onclick="solve('**')"value="^">
+            <input type="button" class="h"  value="@">
+            </div>
+            <div id="d">
+            <input type="button" onclick="solve('7')" class="h" value="7">
+            <input type="button"class="h"onclick="solve('8')" value="8">
+            <input type="button" class="h" onclick="solve('9')" value="9">
+            <input type="button" class="h" onclick="solve('/')" value="/">
+            </div>
+            <div id="e">
+            <input type="button" class="h" onclick="solve('4')"value="4">
+            <input type="button" class="h" onclick="solve('5')"value="5">
+            <input type="button" class="h" onclick="solve('6')"value="6">
+            <input type="button" class="h" onclick="solve('*')"value="*">
+            </div>
+            <div id="f">
+            <input type="button" class="h" onclick="solve('1')" value="1">
+            <input type="button" class="h" onclick="solve('2')" value="2">
+            <input type="button" class="h" onclick="solve('3')" value="3">
+            <input type="button" class="h" onclick="solve('-')" value="-">
+            </div>
+            <div id="g">
+            <input type="button" class="h" onclick="solve('0')" value="0">
+            <input type="button" class="h" onclick="solve('.')" value=".">
+            <input type="button" onclick="solve('+')"class="h" value="+">
+            <input type="button" onclick="result()" class="h"value='=' >
+            </div>
+        </div>
+        <script src="new5.js"></script>
+    </body>
+</html>
